@@ -115,7 +115,7 @@ perfdata = "|"
     elsif (total <= warning)
       status << "WARNING"
     else
-      status << OK
+      status << "OK"
     end
   end
 
